@@ -11,7 +11,7 @@ integration with [Travis CI].  The [.travis.yml](.travis.yml) file also
 includes commented-out commands for using [Lcoveralls] to submit coverage
 reports to  [Coveralls], if so desired.
 
-Althought the project should build out of the box, there's a couple of things
+Although the project should build out of the box, there's a couple of things
 you'll probably want to do right away, if/when using this template:
 
 1. Clone / copy the code to somewhere sensible.
@@ -20,6 +20,8 @@ you'll probably want to do right away, if/when using this template:
 4. Update the strings macro-defined at the top of [main.cpp](src/main.cpp).
 5. Update the strings in the resource files (coming soon).
 6. Replace this README.md file with your own.
+
+After that, start writing code (including unit tests) as you normally would.
 
 [Coveralls]: http://coveralls.io/ "Coveralls"
 [Doxygen]: http://www.doxygen.org "Doxygen"
