@@ -1,3 +1,4 @@
+*.user
 debug
 release
 Makefile
