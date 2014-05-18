@@ -1,0 +1,23 @@
+# @todo Generate your own doxyfile like: doxygen [-s] -g [configName]
+# See the Doxygen manual for details. The following settings are some example
+# overrides I like to apply to generated doxyfiles to start with, but they
+# they are all optional - though at least the INPUT option needs to be set.
+
+STRIP_FROM_PATH        = ../../src
+MARKDOWN_SUPPORT       = YES
+QUIET                  = YES
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = YES
+INPUT                  = ../../src \
+                         ../../README.md
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+STRIP_CODE_COMMENTS    = NO
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
