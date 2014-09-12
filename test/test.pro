@@ -51,4 +51,4 @@ unix {
     QMAKE_DISTCLEAN += -r coverage_html
 }
 
-include(core/core.pri)
+#include(subdir/subdir.pri)

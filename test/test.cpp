@@ -1,4 +1,4 @@
-/// LICENSE
+/// @todo Add license.
 
 //#include "testa.h"
 //#include "testb.h"

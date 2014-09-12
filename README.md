@@ -16,7 +16,7 @@ you'll probably want to do right away, if/when using this template:
 
 1. Clone / copy the code to somewhere sensible.
 2. Rename the main `project.pro` file to your project name.
-3. Change the `Target` in [ssrc.pro](src/src.pro) to your project name.
+3. Change the `Target` in [src.pro](src/src.pro) to your project name.
 4. Update the strings macro-defined at the top of [main.cpp](src/main.cpp).
 5. Update the strings in the resource files (coming soon).
 6. Replace this README.md file with your own.
