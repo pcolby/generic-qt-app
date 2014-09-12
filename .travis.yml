@@ -9,13 +9,14 @@ before_install:
   - sudo apt-get update -qq
 
 install:
-  - sudo apt-get install -qq doxygen graphviz lcov qt5-qmake qtbase5-dev #rubygems
+  - sudo apt-get install -qq cppcheck doxygen graphviz lcov qt5-qmake qtbase5-dev #rubygems
  #- gem install lcoveralls
 
 before_script:
   - qmake -qt=qt5
 
 script:
+  - cppcheck --error-exitcode=1 --quiet .
   - make
   - make check
 
