@@ -1,7 +1,7 @@
 # @todo Generate your own doxyfile like: doxygen [-s] -g [configName]
 # See the Doxygen manual for details. The following settings are some example
 # overrides I like to apply to generated doxyfiles to start with, but they
-# they are all optional - though at least the INPUT option needs to be set.
+# are all optional - though at least the INPUT option needs to be set.
 
 STRIP_FROM_PATH        = ../../src
 MARKDOWN_SUPPORT       = YES
