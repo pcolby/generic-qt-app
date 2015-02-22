@@ -7,7 +7,7 @@
 #include <QTranslator>
 
 // Note, these values are used by the QSettings default constructor,
-// so hould not change between versions.
+// so should not change between versions.
 #define APPLICATION_NAME    QLatin1String("APP_NAME")
 #define ORGANISATION_NAME   QLatin1String("ORG_NAME")
 #define ORGANISATION_DOMAIN QLatin1String("APP_NAME.domain.tld")
